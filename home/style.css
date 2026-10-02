@@ -1,1 +1,43 @@
+/* Reset margins and set full black background */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section with background image */
+.hero {
+  height: 100vh;
+  background-image: url('hero-banner-temp.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Semi-transparent dark overlay for readability */
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 204, 0.3);
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #00ffcc;
+}
+
+.hero-overlay p {
+  font-size: 1.25rem;
+  color: #cccccc;
+}
