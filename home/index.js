@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Team Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>AI Team Web Developer</h1>
+      <p>Building Next-Gen Intelligent Web Solutions</p>
+    </div>
+  </header>
+
+</body>
+</html>
